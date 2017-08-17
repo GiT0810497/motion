@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/main.css">
+  <title>Dianrong UI</title>
+</head>
+<body>
+
+  <header>
+    <div class="nav">
+
+      <div class="logo">
+        <img src="img/logo.png" alt="logo">
+      </div>
+
+      <ul class="meun">
+        <li><a href="">首页</a></li>
+        <li><a href="">设计指导</a></li>
+        <li><a class="heightlight" href="">设计规范</a></li>
+        <li><a href="">组件库</a></li>
+      </ul>
+
+      <div class="menu-togle" hidden="true">
+        <div class="hamburger"></div>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="sidebar">
+        <div class='sidebar-menu'>
+          <span>动效</span>
+        </div>
+        <div class='sub-menus'>
+          <ul>
+          <li><a class="heightlight" href="index.html">概述</a></li>
+          <li><a href="timingfunction.html">时间和动画曲线</a></li>
+          <li><a href="usecase.html">使用场景</a></li>
+          <li><a href="style.html">风格和其他</a></li>
+          </ul>
+        </div>
+      <div class="line"></div>
+    </div>
+
+    <article class="content">
+      <h2>概述</h2>
+      <section class="text-only">
+      <h3>动效作用</h3>
+      <p>一个常见的误区是动效只是让你已有的设计变的更加好看，通常是在设计完成以后再加上去的点缀。当然动效能给UI带来活力，但更重要的是它还能增强用户体验。一个动效出现在页面上，是为了起到某些作用，而不是为了加动效而加。动效的作用有：</p>
+      <ul>
+        <li><b>提供反馈: </b>通常需要用户来触发，并不仅仅是提供结果，告诉用户系统收到了指令。</li>
+        <li><b>提示：</b>动效可以通过动画来吸引用户的注意，提到提示的作用。</li>
+        <li><b>层级关系：</b>通过上下，前后的位置变化来表现层级关系。</li>
+        <li><b>连续性：</b>从一个状态变成另一个状态时通过过渡的动画使前后能关联起来，让整个转换更加流畅。</li>
+      </ul>
+      </section>
+
+      <section class="text-only">
+      <h3>可交互和不可交互的动效</h3>
+      <p>动效大致可分为可交互和不可交互的，我们用的最多的是不可交互的动效，当它被触发了以后，它就按照设定好的方式开始播放，直到停止。而可交互的动画，用户可以来实时控制动画的进度。同一个动画可以同时拥有可交互的和不可交互的两种状态。最常见的就是iOS返回上一页面的动画，当你按下返回键时候，它是以不可交互的模式来就行播放的，当用户选择用手势右滑返回时，整个动画的进度都是由用户来控制的。</p>
+      </section>
+
+      <section class="text-only">
+      <h3>物理特性</h3>
+      <p>好的动效应该遵循物理规律的，是符合生活常识的。在生活中我们能对物体的运动进行预测，当一个球要从桌子上滚下去时，我们可以预期当球离开桌面时它会往下掉，而不是往天上飞，我们把这个叫做常识。我们可以把一些UI元素看成是真实的物体，他有重量，符合物理规律。比如物体不会凭空出现和消失，不会突然变化位置，符合物理规律的动效更容易让人理解，同时也会显得更自然。</p>
+      </section>
+
+      <section class="text-only">
+      <h3>需要避免的问题</h3>
+      <p>动效不是动画片，很少会有用户会从当前的操作中停下来观看你的动画。时间太长，太过花哨的动画不仅不能帮助用户，甚至还会造成干扰。</p>
+      <p>好的动效因该是多方配合的产物，它不仅需要出色的视觉设计，同时也需要工程师的努力才是使它落地。</p>
+      </section>
+    </article>
+
+  </div>
+</body>
+</html>
