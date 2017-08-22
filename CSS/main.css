@@ -3,6 +3,10 @@ body{
   position: relative;
 }
 
+.nav a:hover,.sidebar a:hover{
+  color: #00bc8d;
+}
+
 /*
 --------------
 导航栏
@@ -69,10 +73,6 @@ header{
 
 .container .heightlight{
   color: #00bc8d;
-}
-
-.nav ul li a:hover{
-  color: #999;
 }
 
 
